@@ -1,0 +1,9 @@
+opencv-python
+flask
+numba
+pandas
+torch
+matplotlib
+torchvision
+shapely
+openai
