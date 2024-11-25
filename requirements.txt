@@ -7,3 +7,4 @@ matplotlib
 torchvision
 shapely
 openai
+token-count
