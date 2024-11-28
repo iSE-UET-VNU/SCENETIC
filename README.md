@@ -7,13 +7,9 @@
 
 ## Introduction
 
-In this paper, we propose CRISIS, a Reinforcement Learning (RL)-based approach to generate realistic critical scenarios for testing ADSs.
-To comprehensively capture the complexity of driving scenarios, CRISIS holistically represents the environment by both the **internal states** of the ADS and the **external states** of the surrounding factors. 
-CRISIS trains the RL agent to effectively configure the environment that places the AV in dangerous situations and potentially leads it to collisions. 
-We introduce a diverse set of actions that allows the RL agent to systematically configure both **environmental conditions** and **traffic participants**.
-Additionally, we enforce heuristic constraints to ensure the realism and relevance of the generated test scenarios.
+In this paper, we propose CRISIS, a Reinforcement Learning (RL)-based approach to generate realistic critical scenarios for testing ADSs in simulation environments. To capture the complexity of driving scenarios, CRISIS comprehensively represents the environment by both the **internal states** of an ADS under-test (e.g., the status of the ADS's core components, speed, or acceleration) and the **external states** of the surrounding factors in the simulation environment (e.g., weather, traffic flow, or road condition). CRISIS trains the RL agent to effectively configure the simulation environment that places the AV in dangerous situations and potentially leads it to collisions. We introduce a diverse set of actions that allows the RL agent to systematically configure both *environmental conditions* and *traffic participants*. Additionally, based on established safety requirements, we enforce heuristic constraints to ensure the realism and relevance of the generated test scenarios.
 
-CRISIS is evaluated on two popular simulation maps with four road configurations. The experimental results demonstrate its ability to outperform the state-of-the-art approach, DeepCollision, by generating 40\% to 110\% more collision scenarios. Furthermore, compared to Random Search, CRISIS achieves up to 250\% better performance. These results highlight the effectiveness of CRISIS in enhancing the safety testing of AVs through realistic comprehensive scenario generation.
+CRISIS is evaluated on two popular simulation maps with four different road configurations. Our results show CRISIS's ability to outperform the state-of-the-art approach by generating 30\% to 115\% more collision scenarios. Compared to the baseline based on Random Search, CRISIS achieves up to 275\% better performance. These results highlight the effectiveness of CRISIS in enhancing the safety testing of AVs through realistic comprehensive critical scenario generation.
 
 ## The architecture
 ![](figs/CRISIS-architecture.png)
