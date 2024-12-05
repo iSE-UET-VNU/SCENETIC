@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import argparse
 
-from .evaluation_constants import *
+from evaluation_constants import *
 
 obs_time = OBSERVATION_TIME
 

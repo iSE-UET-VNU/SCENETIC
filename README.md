@@ -95,7 +95,7 @@ Finally, run the following command to user the model and generate testing scenar
 python3 ./avastra_model_pipeline/avastra_experiment.py
 ```
 
-# Interesting scenarios
+# Demo scenarios
 
 To get more information (results, examples, v.v) about this research, you can refer to our demo video.
 
