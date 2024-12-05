@@ -99,7 +99,14 @@ python3 ./avastra_model_pipeline/avastra_experiment.py
 
 To get more information (results, examples, v.v) about this research, you can refer to our demo video.
 
-[![](figs/Demo.png)](https://youtu.be/55vHNrBeTZQ)
+<!-- [![](figs/Demo.png)](https://youtu.be/55vHNrBeTZQ) -->
+
+<div align="center">
+      <a href="https://youtu.be/55vHNrBeTZQ">
+         <img src="figs/Demo.png" style="width:100%;">
+      </a>
+</div>
+
 # Contact us
 If you have any questions, comments or suggestions, please do not hesitate to contact us.
 - Email: 21020017@vnu.edu.vn
