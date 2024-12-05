@@ -1,33 +1,29 @@
-from utils import get_action_space, get_environment_state
-
+from utils import get_action_space
+import random
 import requests
 import pandas as pd
 import time
-import numpy as np
-import torch 
-from crisis_training_model import DDQN
+import numpy as np 
 import json
 import os
+
+from utils import get_environment_state
 
 from pipeline_constants import *
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
-request_prefix = 'http://' + API_SERVER_HOST + ':' + str(API_SERVER_PORT) + "/crisis"
-
+request_prefix = 'http://' + API_SERVER_HOST + ':' + str(API_SERVER_PORT) + "/avastra"
 scene = SANFRANCISCO_MAP
 road_num = ROAD_NUM
 second = OBSERVATION_TIME
-test_model_eps = TEST_MODEL_EPS
 
-# Execute action
 def execute_action(action_id):
     api = action_space[str(action_id)]
     print("Start action: ", api)
     response = requests.post(api)
-    print(response)
-    
     obstacle_uid = None
+    print(response)
     sudden_appearance = False
     overlapping = False
     position_list = []
@@ -40,7 +36,7 @@ def execute_action(action_id):
         sudden_appearance = response.json()['sudden_appearance']
         overlapping = response.json()['overlapping']
         position_list = response.json()['position_list']
-        is_collision_ahead = response.json()['isCollisionAhead']
+        is_collision_ahead = response.json()['is_collision_ahead']
         pedes_mov_fw_to = response.json()['pedes_mov_fw_to']
     except Exception as e:
         print(e)
@@ -48,15 +44,14 @@ def execute_action(action_id):
         
     return proc_list, obstacle_uid, sudden_appearance, overlapping, position_list, is_collision_ahead, pedes_mov_fw_to
 
+check_num = 5
 
-check_num = STOP_STEP
 position_space = []
 position_space_size = 0
 
 def judge_done():
     global position_space_size
     global position_space
-    
     judge = False
     position = requests.get(f"{request_prefix}/status/ego-vehicle/position").json()
     position_space.append((position['x'], position['y'], position['z']))
@@ -76,18 +71,18 @@ def judge_done():
             
         if abs(dis2) > STOP_DIS_ALTITUDE:
             judge = True
+            
     return judge
+
 
 # Execute action and get return
 def calculate_reward(action_id):
     
     proc_list, obstacle_uid, sudden_appearance, overlapping, position_list, is_collision_ahead, pedes_mov_fw_to = execute_action(action_id)
-    observation, pos = get_environment_state()
-
+    
     # Collision Probability Reward
     
     collision_probability = 0
-    collision_reward = 0
     
     collision_info = (requests.get(f"{request_prefix}/status/collision-info")).content.decode(
         encoding='utf-8')
@@ -97,44 +92,23 @@ def calculate_reward(action_id):
     episode_done = judge_done()
 
     if collision_info != 'None':
-        collision_reward = RCOL
         collision_probability = 1
     elif collision_info == "None":
         collision_probability = round(float(
             (requests.get(f"{request_prefix}/status/collision-probability")).content.decode(
                 encoding='utf-8')), 6)
-        if collision_probability < PENALTY_THRESHOLD:
-            collision_reward = PENALTY
-        elif PENALTY_THRESHOLD <= collision_probability < 1.0:
-            collision_reward = collision_probability
-        else:
-            collision_reward = RCOL
-        
-    print("Collision Probability: ", collision_probability)
-    print("Collision Reward: ", collision_reward)
             
-    return observation, collision_probability, episode_done, proc_list, obstacle_uid, collision_info, sudden_appearance, overlapping, position_list, is_collision_ahead, pedes_mov_fw_to
+    return collision_probability, episode_done, proc_list, obstacle_uid, collision_info, sudden_appearance, overlapping, position_list, is_collision_ahead, pedes_mov_fw_to
 
 def check_test_folder():
 
     test_prefix_path = script_dir + "/../" + TEST_PATH
     
-    test_path = f"{test_prefix_path}/{TEST_NAME}/"
+    test_path = f"{test_prefix_path}/{RANDOM_SEARCH_NAME}/"
     
     os.makedirs(test_path, exist_ok=True)
     
     return test_path
-    
-def check_model_path():
-
-    model_prefix_path = script_dir + "/" + MODEL_PATH
-    
-    model_path = f"{model_prefix_path}/{TEST_NAME}"
-    
-    if not os.path.isdir(model_path):
-        raise Exception("Model path not found")
-    
-    return model_path
 
 def unreal_case_log(sudden_appearance, overlapping, repeated_collision, not_collision_forward, pedes_mov_fw_to):
     if sudden_appearance:
@@ -278,10 +252,10 @@ def log_action_info(iteration, test_log_path):
             test_log_path,
             mode='a',
             header=False, index=None)
-                
+
 if __name__ == '__main__':
     for loop in range(0, TEST_ATTEMPT):
-        requests.post(f"{request_prefix}/load-scene?scene={scene}&road_num={road_num}&saving=1")
+        requests.post(f"{request_prefix}/load-scene?scene={scene}&road_num={road_num}&saving=0")
         requests.post(f"{request_prefix}/set-observation-time?observation_time={second}")
 
         action_space = get_action_space()['api']
@@ -291,30 +265,25 @@ if __name__ == '__main__':
         file_name = str(int(time.time()))
 
         test_path = check_test_folder()
-        model_path = check_model_path()
-
-        # load model
-        ddqn = DDQN()
-        ddqn.eval_net.load_state_dict(torch.load(f"{model_path}/eval_net_{test_model_eps}_road{road_num}.pt"))
-        ddqn.target_net.load_state_dict(torch.load(f"{model_path}/target_net_{test_model_eps}_road{road_num}.pt"))
-
+        
         # logging
         title = ["Episode", "State", "Action", "Choosing_Type", "Collision_Probability",
                 "Collision_uid", "Collision_Probability_Per_Step", "Sudden Appearance", 
                 "Overlapping", "Repeated Collision", "Unreal Pedes Col", "Done"]
 
         df_title = pd.DataFrame([title])
-        test_log_path = f"{test_path}/crisis_experiment_{test_model_eps}eps_{file_name}.csv"
+        test_log_path = f"{test_path}/random_search_experiment_{file_name}.csv"
         df_title.to_csv(test_log_path, mode='w', header=False, index=None)
 
         iteration = 0
         step = 0
         print("Start episode 0")
 
-        s, _ = get_environment_state()
         restart_episode()
 
         while True:
+            
+            s, _ = get_environment_state()
                 
             retry = True
             
@@ -323,8 +292,8 @@ if __name__ == '__main__':
                 retry = False
             
                 try:
-                    action, type = ddqn.choose_action(s, step - previous_weather_and_time_step, prev_weather_time_step, True)
-                    s_, probability, done, collision_probability_per_step, collision_uid, collision_info, sudden_appearance, overlapping, position_list, is_collision_ahead, pedes_mov_fw_to = calculate_reward(action)
+                    action = random.randint(0, action_space_size - 1)
+                    probability, done, collision_probability_per_step, collision_uid, collision_info, sudden_appearance, overlapping, position_list, is_collision_ahead, pedes_mov_fw_to = calculate_reward(action)
                     
                     repeated_collision, done = check_repeated_collision(position_list, collision_info, done)    
                     unreal_pedes_col, not_collision_forward = check_unreal_pedes_col(probability, collision_info, is_collision_ahead, pedes_mov_fw_to)
@@ -360,7 +329,6 @@ if __name__ == '__main__':
             print('api_id, probability, sudden_appearance, overlapping, repeated_collision, unreal_pedes_col, done: ', action, probability, sudden_appearance, overlapping, repeated_collision, unreal_pedes_col, done)
 
             step += 1
-            s = s_
             if done:
                 is_saving = 1
 

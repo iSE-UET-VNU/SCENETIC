@@ -14,7 +14,7 @@ def action_analysis(exp_file, n_actions):
     action_by_model = np.zeros((n_actions_,))
     action_randomly = np.zeros((n_actions_,))
     
-    json_file = open('../RESTfulAPIProcess/RESTful_API_fine_grained.json', 'r')
+    json_file = open('../restful_api/api_service_list.json', 'r')
     content = json_file.read()
     restful_api = json.loads(s=content)["api"]
     

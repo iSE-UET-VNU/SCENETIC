@@ -38,13 +38,13 @@ PENALTY = -1
 
 MODEL_PATH = "model"
 LOG_PATH = "ExperimentData/Log"
-IN_MODEL_NAME = 'crisis_standard_sanfrancisco_road3'
-OUT_MODEL_NAME = 'crisis_standard_sanfrancisco_road3'
-LOG_NAME = 'crisis_standard_sanfrancisco_road3'
+IN_MODEL_NAME = 'avastra_standard_sanfrancisco_road3'
+OUT_MODEL_NAME = 'avastra_standard_sanfrancisco_road3'
+LOG_NAME = 'avastra_standard_sanfrancisco_road3'
 REUSE_MEMORY_NAME = ""
 
 TEST_PATH = "ExperimentData/Test"
-TEST_NAME = 'crisis_standard_sanfrancisco_road3'
+TEST_NAME = 'avastra_standard_sanfrancisco_road3'
 TEST_ATTEMPT = 5
 TEST_SCENARIO_NUM = 15
 TEST_MODEL_EPS = 5

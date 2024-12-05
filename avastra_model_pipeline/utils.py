@@ -3,26 +3,15 @@ import json
 import requests
 import numpy as np
 import math
-import random
-
-import matplotlib
-import matplotlib.pyplot as plt
-from collections import namedtuple
-from itertools import count
-from PIL import Image
 
 import torch
-import torch.nn as nn
-import torch.optim as optim
-import torch.nn.functional as F
-import torchvision.transforms as T
 import os
 
 from pipeline_constants import *
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
-request_prefix = 'http://' + API_SERVER_HOST + ':' + str(API_SERVER_PORT) + "/crisis"
+request_prefix = 'http://' + API_SERVER_HOST + ':' + str(API_SERVER_PORT) + "/avastra"
 
 # if gpu is to be used
 device = torch.device("cpu")

@@ -84,7 +84,7 @@ current_lane = {
 cars = ['Jeep', 'BoxTruck', 'Sedan', 'SchoolBus', 'SUV', 'Hatchback']
 colors = ['pink', 'yellow', 'red', 'white', 'black', 'skyblue']
 
-api_prefix = '/crisis/'
+api_prefix = '/avastra/'
 
 # setup connect to apollo
 msg_socket = None
@@ -724,7 +724,7 @@ def load_scene():
 
     # set destination
     end_point = ego_endpoint[scene]['road' + road_num]['end']
-    requests.post(f"http://{API_SERVER_HOST}:{API_SERVER_PORT}/crisis/set-destination?des_x={end_point['position']['x']}&des_y={end_point['position']['y']}&des_z={end_point['position']['z']}")
+    requests.post(f"http://{API_SERVER_HOST}:{API_SERVER_PORT}/avastra/set-destination?des_x={end_point['position']['x']}&des_y={end_point['position']['y']}&des_z={end_point['position']['z']}")
 
     sim.run(2)
 

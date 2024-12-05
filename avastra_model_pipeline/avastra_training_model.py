@@ -34,7 +34,7 @@ road_num = ROAD_NUM  # the Road Number
 second = OBSERVATION_TIME # otp
 scene = SANFRANCISCO_MAP
 
-request_prefix = 'http://' + API_SERVER_HOST + ':' + str(API_SERVER_PORT) + "/crisis"
+request_prefix = 'http://' + API_SERVER_HOST + ':' + str(API_SERVER_PORT) + "/avastra"
 
 requests.post(f"{request_prefix}/load-scene?scene={scene}&road_num={road_num}&saving=0")
 
