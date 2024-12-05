@@ -25,15 +25,15 @@ Moreover, to effectively train the DDQN model, a **Replay Buffer** is employed i
 
 ## Project Structure
 
-1. **[configuration_api_server](https://github.com/trunghieu1109/MoViTe/tree/reconstruct_project/configuration_api_server)** - The API server provides RESTful API endpoints to directly configure the testing environment and create a scenario.
+1. **[configuration_api_server](https://github.com/iSE-UET-VNU/AVASTRA/tree/main/configuration_api_server)** - The API server provides RESTful API endpoints to directly configure the testing environment and create a scenario.
 
-2. **[avastra_model_pipeline](https://github.com/trunghieu1109/MoViTe/tree/reconstruct_project/avastra_model_pipeline)** - The entire pipeline for training a Reinforcement Learning Agent and conducting experiments on various maps of AVAstra.
+2. **[avastra_model_pipeline](https://github.com/iSE-UET-VNU/AVASTRA/tree/main/avastra_model_pipeline)** - The entire pipeline for training a Reinforcement Learning Agent and conducting experiments on various maps of AVAstra.
 
-3. **[scenario_evaluation](https://github.com/trunghieu1109/MoViTe/tree/reconstruct_project/scenarios_evaluation)** - Evaluations of the training process and experiments.
+3. **[scenario_evaluation](https://github.com/iSE-UET-VNU/AVASTRA/tree/main/scenarios_evaluation)** - Evaluations of the training process and experiments.
 
-4. **[restful_api](https://github.com/trunghieu1109/MoViTe/tree/reconstruct_project/restful_api)** - List of RESTful API endpoints used to configure the environment.
+4. **[restful_api](https://github.com/iSE-UET-VNU/AVASTRA/tree/main/restful_api)** - List of RESTful API endpoints used to configure the environment.
 
-5. **[PythonAPI](https://github.com/trunghieu1109/MoViTe/tree/reconstruct_project/PythonAPI)** - Python API used to interact with the LGSVL simulator. 
+5. **[PythonAPI](https://github.com/iSE-UET-VNU/AVASTRA/tree/main/PythonAPI)** - Python API used to interact with the LGSVL simulator. 
 
 ## Prerequisite
 
@@ -95,10 +95,11 @@ Finally, run the following command to user the model and generate testing scenar
 python3 ./avastra_model_pipeline/avastra_experiment.py
 ```
 
-# Website
+# Interesting scenarios
 
-To get more information (results, examples, v.v) about this research, you can refer to our website.
+To get more information (results, examples, v.v) about this research, you can refer to our demo video.
 
+[![](figs/Demo.png)](https://youtu.be/55vHNrBeTZQ)
 # Contact us
 If you have any questions, comments or suggestions, please do not hesitate to contact us.
 - Email: 21020017@vnu.edu.vn
