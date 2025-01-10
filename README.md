@@ -7,14 +7,14 @@
 
 ## Introduction
 
-In this paper, we propose AVAstra, a Reinforcement Learning (RL)-based approach to generate realistic critical scenarios for testing ADSs in simulation environments. To capture the complexity of driving scenarios, AVAstra comprehensively represents the environment by both the **internal states** of an ADS under-test (e.g., the status of the ADS's core components, speed, or acceleration) and the **external states** of the surrounding factors in the simulation environment (e.g., weather, traffic flow, or road condition). AVAstra trains the RL agent to effectively configure the simulation environment that places the AV in dangerous situations and potentially leads it to collisions. We introduce a diverse set of actions that allows the RL agent to systematically configure both *environmental conditions* and *traffic participants*. Additionally, based on established safety requirements, we enforce heuristic constraints to ensure the realism and relevance of the generated test scenarios.
+In this paper, we propose SCENETIC, a Reinforcement Learning (RL)-based approach to generate realistic critical scenarios for testing ADSs in simulation environments. To capture the complexity of driving scenarios, SCENETIC comprehensively represents the environment by both the **internal states** of an ADS under-test (e.g., the status of the ADS's core components, speed, or acceleration) and the **external states** of the surrounding factors in the simulation environment (e.g., weather, traffic flow, or road condition). SCENETIC trains the RL agent to effectively configure the simulation environment that places the AV in dangerous situations and potentially leads it to collisions. We introduce a diverse set of actions that allows the RL agent to systematically configure both *environmental conditions* and *traffic participants*. Additionally, based on established safety requirements, we enforce heuristic constraints to ensure the realism and relevance of the generated test scenarios.
 
-AVAstra is evaluated on two popular simulation maps with four different road configurations. Our results show AVAstra's ability to outperform the state-of-the-art approach by generating 30\% to 115\% more collision scenarios. Compared to the baseline based on Random Search, AVAstra achieves up to 275\% better performance. These results highlight the effectiveness of AVAstra in enhancing the safety testing of AVs through realistic comprehensive critical scenario generation.
+SCENETIC is evaluated on two popular simulation maps with four different road configurations. Our results show SCENETIC's ability to outperform the state-of-the-art approach by generating 30\% to 115\% more collision scenarios. Compared to the baseline based on Random Search, SCENETIC achieves up to 275\% better performance. These results highlight the effectiveness of SCENETIC in enhancing the safety testing of AVs through realistic comprehensive critical scenario generation.
 
 ## The architecture
 ![](figs/AVAstra-architecture.png)
 
-AVAstra leverages a Double Deep-Q Network (DDQN) to train an RL agent that can observe both the ADS **internal states** and surrounding **external states** to select optimal actions to configure the environment. 
+SCENETIC leverages a Double Deep-Q Network (DDQN) to train an RL agent that can observe both the ADS **internal states** and surrounding **external states** to select optimal actions to configure the environment. 
 
 At each time step $t$, based on the observed state $s_t$, the agent selects an action $a_t$. Upon executing $a_t$ and the ADS operates within a fixed observation-time period (OTP), the operating environment is transitioned into a new state $s_{t+1}$. The agent then evaluates the effectiveness of the chosen action by calculating a reward based on the **collision probability**, reinforcing actions that lead to more critical scenarios. 
 
@@ -25,15 +25,15 @@ Moreover, to effectively train the DDQN model, a **Replay Buffer** is employed i
 
 ## Project Structure
 
-1. **[configuration_api_server](https://github.com/iSE-UET-VNU/AVASTRA/tree/main/configuration_api_server)** - The API server provides RESTful API endpoints to directly configure the testing environment and create a scenario.
+1. **[configuration_api_server](https://github.com/iSE-UET-VNU/SCENETIC/tree/main/configuration_api_server)** - The API server provides RESTful API endpoints to directly configure the testing environment and create a scenario.
 
-2. **[avastra_model_pipeline](https://github.com/iSE-UET-VNU/AVASTRA/tree/main/avastra_model_pipeline)** - The entire pipeline for training a Reinforcement Learning Agent and conducting experiments on various maps of AVAstra.
+2. **[scenetic_model_pipeline](https://github.com/iSE-UET-VNU/SCENETIC/tree/main/avastra_model_pipeline)** - The entire pipeline for training a Reinforcement Learning Agent and conducting experiments on various maps of SCENETIC.
 
-3. **[scenario_evaluation](https://github.com/iSE-UET-VNU/AVASTRA/tree/main/scenarios_evaluation)** - Evaluations of the training process and experiments.
+3. **[scenario_evaluation](https://github.com/iSE-UET-VNU/SCENETIC/tree/main/scenarios_evaluation)** - Evaluations of the training process and experiments.
 
-4. **[restful_api](https://github.com/iSE-UET-VNU/AVASTRA/tree/main/restful_api)** - List of RESTful API endpoints used to configure the environment.
+4. **[restful_api](https://github.com/iSE-UET-VNU/SCENETIC/tree/main/restful_api)** - List of RESTful API endpoints used to configure the environment.
 
-5. **[PythonAPI](https://github.com/iSE-UET-VNU/AVASTRA/tree/main/PythonAPI)** - Python API used to interact with the LGSVL simulator. 
+5. **[PythonAPI](https://github.com/iSE-UET-VNU/SCENETIC/tree/main/PythonAPI)** - Python API used to interact with the LGSVL simulator. 
 
 ## Prerequisite
 
