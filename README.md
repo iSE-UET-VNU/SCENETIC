@@ -99,12 +99,14 @@ python3 ./avastra_model_pipeline/avastra_experiment.py
 
 To get more information (results, examples, v.v) about this research, you can refer to our demo video.
 
-<!-- [![](figs/Demo.png)](https://youtu.be/55vHNrBeTZQ) -->
-
 <div align="center">
-      <a href="https://youtu.be/_p-ucZgjkug">
-         <img src="figs/Demo.png" style="width:100%;">
-      </a>
+  <video width="100%" controls preload="metadata">
+    <source src="assets/Interesting%20Scenarios%20Generated%20By%20AVAstra.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p>
+    <a href="assets/Interesting%20Scenarios%20Generated%20By%20AVAstra.mp4">Open the demo video directly</a>
+  </p>
 </div>
 
 # Contact us
