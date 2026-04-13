@@ -146,7 +146,7 @@ To get more information (results, examples, v.v) about this research, you can re
         <br>
         <strong>Scenario 6. Failure to Detect Pedestrian at Crosswalk</strong>
         <br>
-        The autonomous vehicle fails to detect a pedestrian crossing at a marked crosswalk and collides with them.
+        The autonomous vehicle approaches a marked crosswalk but fails to detect a pedestrian crossing, resulting in a direct collision.
       </td>
     </tr>
   </table>
