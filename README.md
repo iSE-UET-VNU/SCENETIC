@@ -12,7 +12,8 @@ In this paper, we propose SCENETIC, a Reinforcement Learning (RL)-based approach
 SCENETIC is evaluated on two popular simulation maps with four different road configurations. Our results show SCENETIC's ability to outperform the state-of-the-art approach by generating 30\% to 115\% more collision scenarios. Compared to the baseline based on Random Search, SCENETIC achieves up to 275\% better performance. These results highlight the effectiveness of SCENETIC in enhancing the safety testing of AVs through realistic comprehensive critical scenario generation.
 
 ## The architecture
-![](figs/AVAstra-architecture.png)
+![](https://raw.githubusercontent.com/iSE-UET-VNU/SCENETIC/main/figs/AVAstra-Architecture.png)
+
 
 SCENETIC leverages a Double Deep-Q Network (DDQN) to train an RL agent that can observe both the ADS **internal states** and surrounding **external states** to select optimal actions to configure the environment. 
 
@@ -20,6 +21,62 @@ At each time step $t$, based on the observed state $s_t$, the agent selects an a
 
 Moreover, to effectively train the DDQN model, a **Replay Buffer** is employed in the training process. Specifically, at each time step $t$, the transition  $\langle s_t, a_t, s_{t+1} \rangle$ along with its corresponding reward $r_t$ is stored into the buffer. When the Replay Buffer reaches its capacity, the transitions and rewards are prioritized using the Prioritized Experience Replay (PER) algorithm, which ensures that high-priority transitions are selected to train the DDQN model.
 
+# Demo Scenarios
+
+To get more information (results, examples, v.v) about this research, you can refer to the following demo scenarios.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <img src="assets/Scenario_1.gif" alt="Scenario 1" width="95%">
+        <br>
+        <strong>Scenario 1. Intersection Merge Collision from Left-Side Truck</strong>
+        <br>
+        <!-- The ego vehicle approaches and enters an intersection when a blue truck merges from the left into its lane, creating a dangerous collision. -->
+      </td>
+      <td align="center" width="50%">
+        <img src="assets/Scenario_3.gif" alt="Scenario 2" width="95%">
+        <br>
+        <strong>Scenario 2. Repeated Collision Scenario with Failed Yield and Unsafe Left Turn</strong>
+        <br>
+        <!-- The ego vehicle collides with a merging vehicle from the right, then makes an unsafe left turn at an intersection and crashes into a truck ahead. -->
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <img src="assets/Scenario_4.gif" alt="Scenario 4" width="95%">
+        <br>
+        <strong>Scenario 3. Failure to Yield to Oncoming Left-Turning Truck at Intersection</strong>
+        <br>
+        <!-- The ego vehicle proceeds straight through an intersection and collides with an oncoming purple truck attempting a left turn. -->
+      </td>
+      <td align="center" width="50%">
+        <img src="assets/Scenario_8.gif" alt="Scenario 5" width="95%">
+        <br>
+        <strong>Scenario 4. High-Speed Lane Change Causing Collision with Bus</strong>
+        <br>
+        <!-- The ego vehicle performs a lane change without slowing down and crashes into a bus already traveling in that lane. -->
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <img src="assets/Scenario_7.gif" alt="Scenario 6" width="95%">
+        <br>
+        <strong>Scenario 5. Unsafe Crossing and Merging Collisions</strong>
+        <br>
+        <!-- The autonomous vehicle collides while crossing without checking, then causes a second crash by merging and ignoring a signaling vehicle. -->
+      </td>
+      <td align="center" width="50%">
+        <img src="assets/Scenario_10.gif" alt="Scenario 5" width="95%">
+        <br>
+        <strong>Scenario 6. Failure to Detect Pedestrian at Crosswalk</strong>
+        <br>
+        <!-- The autonomous vehicle approaches a marked crosswalk but fails to detect a pedestrian crossing, resulting in a direct collision. -->
+      </td>
+    </tr>
+  </table>
+</div>
 
 # Project Overview
 
@@ -95,66 +152,9 @@ Finally, run the following command to user the model and generate testing scenar
 python3 ./avastra_model_pipeline/avastra_experiment.py
 ```
 
-# Demo scenarios
-
-To get more information (results, examples, v.v) about this research, you can refer to the following demo scenarios.
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="50%">
-        <img src="assets/Scenario_1.gif" alt="Scenario 1" width="95%">
-        <br>
-        <strong>Scenario 1. Intersection Merge Collision from Left-Side Truck</strong>
-        <br>
-        <!-- The ego vehicle approaches and enters an intersection when a blue truck merges from the left into its lane, creating a dangerous collision. -->
-      </td>
-      <td align="center" width="50%">
-        <img src="assets/Scenario_3.gif" alt="Scenario 2" width="95%">
-        <br>
-        <strong>Scenario 2. Repeated Collision Scenario with Failed Yield and Unsafe Left Turn</strong>
-        <br>
-        <!-- The ego vehicle collides with a merging vehicle from the right, then makes an unsafe left turn at an intersection and crashes into a truck ahead. -->
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="50%">
-        <img src="assets/Scenario_4.gif" alt="Scenario 4" width="95%">
-        <br>
-        <strong>Scenario 3. Failure to Yield to Oncoming Left-Turning Truck at Intersection</strong>
-        <br>
-        <!-- The ego vehicle proceeds straight through an intersection and collides with an oncoming purple truck attempting a left turn. -->
-      </td>
-      <td align="center" width="50%">
-        <img src="assets/Scenario_8.gif" alt="Scenario 5" width="95%">
-        <br>
-        <strong>Scenario 4. High-Speed Lane Change Causing Collision with Bus</strong>
-        <br>
-        <!-- The ego vehicle performs a lane change without slowing down and crashes into a bus already traveling in that lane. -->
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="50%">
-        <img src="assets/Scenario_7.gif" alt="Scenario 6" width="95%">
-        <br>
-        <strong>Scenario 5. Unsafe Crossing and Merging Collisions</strong>
-        <br>
-        <!-- The autonomous vehicle collides while crossing without checking, then causes a second crash by merging and ignoring a signaling vehicle. -->
-      </td>
-      <td align="center" width="50%">
-        <img src="assets/Scenario_10.gif" alt="Scenario 5" width="95%">
-        <br>
-        <strong>Scenario 6. Failure to Detect Pedestrian at Crosswalk</strong>
-        <br>
-        <!-- The autonomous vehicle approaches a marked crosswalk but fails to detect a pedestrian crossing, resulting in a direct collision. -->
-      </td>
-    </tr>
-  </table>
-</div>
-
 # Contact us
 If you have any questions, comments or suggestions, please do not hesitate to contact us.
-- Email: 21020017@vnu.edu.vn
+- Email: 25025064@vnu.edu.vn
 
 # License
 [MIT License](LICENSE)
