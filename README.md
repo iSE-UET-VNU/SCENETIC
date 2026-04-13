@@ -97,16 +97,59 @@ python3 ./avastra_model_pipeline/avastra_experiment.py
 
 # Demo scenarios
 
-To get more information (results, examples, v.v) about this research, you can refer to our demo video.
+To get more information (results, examples, v.v) about this research, you can refer to the following demo scenarios.
 
 <div align="center">
-  <video width="100%" controls preload="metadata">
-    <source src="assets/Interesting%20Scenarios%20Generated%20By%20AVAstra.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <p>
-    <a href="assets/Interesting%20Scenarios%20Generated%20By%20AVAstra.mp4">Open the demo video directly</a>
-  </p>
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <img src="assets/Scenario_1.gif" alt="Scenario 1" width="95%">
+        <br>
+        <strong>Scenario 1. Intersection Merge Collision from Left-Side Truck</strong>
+        <br>
+        The ego vehicle approaches and enters an intersection when a blue truck merges from the left into its lane, creating a dangerous collision.
+      </td>
+      <td align="center" width="50%">
+        <img src="assets/Scenario_3.gif" alt="Scenario 2" width="95%">
+        <br>
+        <strong>Scenario 2. Repeated Collision Scenario with Failed Yield and Unsafe Left Turn</strong>
+        <br>
+        The ego vehicle collides with a merging vehicle from the right, then makes an unsafe left turn at an intersection and crashes into a truck ahead.
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <img src="assets/Scenario_4.gif" alt="Scenario 4" width="95%">
+        <br>
+        <strong>Scenario 3. Failure to Yield to Oncoming Left-Turning Truck at Intersection</strong>
+        <br>
+        The ego vehicle proceeds straight through an intersection and collides with an oncoming purple truck attempting a left turn.
+      </td>
+      <td align="center" width="50%">
+        <img src="assets/Scenario_8.gif" alt="Scenario 5" width="95%">
+        <br>
+        <strong>Scenario 4. High-Speed Lane Change Causing Collision with Bus</strong>
+        <br>
+        The ego vehicle performs a lane change without slowing down and crashes into a bus already traveling in that lane.
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <img src="assets/Scenario_7.gif" alt="Scenario 6" width="95%">
+        <br>
+        <strong>Scenario 5. Unsafe Crossing and Merge Causing Collisions</strong>
+        <br>
+        The autonomous vehicle collides while crossing without checking, then causes a second crash by merging and ignoring a signaling vehicle.
+      </td>
+      <td align="center" width="50%">
+        <img src="assets/Scenario_10.gif" alt="Scenario 5" width="95%">
+        <br>
+        <strong>Scenario 6. Failure to Detect Pedestrian at Crosswalk</strong>
+        <br>
+        The autonomous vehicle fails to detect a pedestrian crossing at a marked crosswalk and collides with them.
+      </td>
+    </tr>
+  </table>
 </div>
 
 # Contact us
