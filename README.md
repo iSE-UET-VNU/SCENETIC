@@ -107,14 +107,14 @@ To get more information (results, examples, v.v) about this research, you can re
         <br>
         <strong>Scenario 1. Intersection Merge Collision from Left-Side Truck</strong>
         <br>
-        The ego vehicle approaches and enters an intersection when a blue truck merges from the left into its lane, creating a dangerous collision.
+        <!-- The ego vehicle approaches and enters an intersection when a blue truck merges from the left into its lane, creating a dangerous collision. -->
       </td>
       <td align="center" width="50%">
         <img src="assets/Scenario_3.gif" alt="Scenario 2" width="95%">
         <br>
         <strong>Scenario 2. Repeated Collision Scenario with Failed Yield and Unsafe Left Turn</strong>
         <br>
-        The ego vehicle collides with a merging vehicle from the right, then makes an unsafe left turn at an intersection and crashes into a truck ahead.
+        <!-- The ego vehicle collides with a merging vehicle from the right, then makes an unsafe left turn at an intersection and crashes into a truck ahead. -->
       </td>
     </tr>
     <tr>
@@ -123,14 +123,14 @@ To get more information (results, examples, v.v) about this research, you can re
         <br>
         <strong>Scenario 3. Failure to Yield to Oncoming Left-Turning Truck at Intersection</strong>
         <br>
-        The ego vehicle proceeds straight through an intersection and collides with an oncoming purple truck attempting a left turn.
+        <!-- The ego vehicle proceeds straight through an intersection and collides with an oncoming purple truck attempting a left turn. -->
       </td>
       <td align="center" width="50%">
         <img src="assets/Scenario_8.gif" alt="Scenario 5" width="95%">
         <br>
         <strong>Scenario 4. High-Speed Lane Change Causing Collision with Bus</strong>
         <br>
-        The ego vehicle performs a lane change without slowing down and crashes into a bus already traveling in that lane.
+        <!-- The ego vehicle performs a lane change without slowing down and crashes into a bus already traveling in that lane. -->
       </td>
     </tr>
     <tr>
@@ -139,14 +139,14 @@ To get more information (results, examples, v.v) about this research, you can re
         <br>
         <strong>Scenario 5. Unsafe Crossing and Merging Collisions</strong>
         <br>
-        The autonomous vehicle collides while crossing without checking, then causes a second crash by merging and ignoring a signaling vehicle.
+        <!-- The autonomous vehicle collides while crossing without checking, then causes a second crash by merging and ignoring a signaling vehicle. -->
       </td>
       <td align="center" width="50%">
         <img src="assets/Scenario_10.gif" alt="Scenario 5" width="95%">
         <br>
         <strong>Scenario 6. Failure to Detect Pedestrian at Crosswalk</strong>
         <br>
-        The autonomous vehicle approaches a marked crosswalk but fails to detect a pedestrian crossing, resulting in a direct collision.
+        <!-- The autonomous vehicle approaches a marked crosswalk but fails to detect a pedestrian crossing, resulting in a direct collision. -->
       </td>
     </tr>
   </table>
