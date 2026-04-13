@@ -137,7 +137,7 @@ To get more information (results, examples, v.v) about this research, you can re
       <td align="center" width="50%">
         <img src="assets/Scenario_7.gif" alt="Scenario 6" width="95%">
         <br>
-        <strong>Scenario 5. Unsafe Crossing and Merge Causing Collisions</strong>
+        <strong>Scenario 5. Unsafe Crossing and Merging Collisions</strong>
         <br>
         The autonomous vehicle collides while crossing without checking, then causes a second crash by merging and ignoring a signaling vehicle.
       </td>
