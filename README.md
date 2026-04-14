@@ -23,7 +23,9 @@ Moreover, to effectively train the DDQN model, a **Replay Buffer** is employed i
 
 # Demo Scenarios
 
-To get more information (results, examples, v.v) about this research, you can refer to the following demo scenarios.
+To provide a more intuitive view of the generated safety-critical cases, we include several representative scenario videos below.
+These examples highlight a number of interesting and challenging situations discovered by SCENETIC, including unsafe merges, failed yielding behaviors, and pedestrian-related collisions.
+If you would like to explore additional interesting cases, you can watch more videos on [YouTube](https://youtu.be/_p-ucZgjkug) and browse the visual materials in the [assets](assets) folder.
 
 <div align="center">
   <table>
