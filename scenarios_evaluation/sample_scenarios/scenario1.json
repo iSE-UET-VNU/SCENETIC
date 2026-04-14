@@ -1,0 +1,6542 @@
+{
+    "timestep_0": {
+        "Ego": {
+            "position": {
+                "x": -331.082,
+                "y": 10.204,
+                "z": 49.3
+            },
+            "rotation": {
+                "x": 359.806,
+                "y": 316.997,
+                "z": 359.869
+            },
+            "velocity": {
+                "x": -3.1,
+                "y": -0.0,
+                "z": 3.072
+            },
+            "angular_velocity": {
+                "x": 0.003,
+                "y": -0.145,
+                "z": -0.001
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -336.559,
+                "y": 10.097,
+                "z": 56.379
+            },
+            "rotation": {
+                "x": 0.049,
+                "y": 324.615,
+                "z": 0.014
+            },
+            "velocity": {
+                "x": -1.566,
+                "y": -0.084,
+                "z": 2.203
+            },
+            "angular_velocity": {
+                "x": 0.003,
+                "y": 0.751,
+                "z": 0.002
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": false,
+            "Has_Vertical_Inverse_Entry": true,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_1": {
+        "Ego": {
+            "position": {
+                "x": -332.756,
+                "y": 10.204,
+                "z": 50.924
+            },
+            "rotation": {
+                "x": 359.919,
+                "y": 314.396,
+                "z": 359.932
+            },
+            "velocity": {
+                "x": -3.565,
+                "y": 0.0,
+                "z": 3.407
+            },
+            "angular_velocity": {
+                "x": 0.001,
+                "y": -0.054,
+                "z": 0.004
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -337.65,
+                "y": 10.087,
+                "z": 57.928
+            },
+            "rotation": {
+                "x": 0.012,
+                "y": 324.5,
+                "z": 0.006
+            },
+            "velocity": {
+                "x": -2.646,
+                "y": -0.001,
+                "z": 3.713
+            },
+            "angular_velocity": {
+                "x": -0.002,
+                "y": 1.133,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": false,
+            "Has_Vertical_Inverse_Entry": true,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_2": {
+        "Ego": {
+            "position": {
+                "x": -334.34,
+                "y": 10.204,
+                "z": 52.441
+            },
+            "rotation": {
+                "x": 0.168,
+                "y": 313.877,
+                "z": -0.003
+            },
+            "velocity": {
+                "x": -2.595,
+                "y": 0.001,
+                "z": 2.493
+            },
+            "angular_velocity": {
+                "x": 0.003,
+                "y": -0.0,
+                "z": 0.005
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -339.093,
+                "y": 10.087,
+                "z": 59.972
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 323.819,
+                "z": -0.001
+            },
+            "velocity": {
+                "x": -2.795,
+                "y": -0.0,
+                "z": 3.849
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.106,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": false,
+            "Has_Vertical_Inverse_Entry": true,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_3": {
+        "Ego": {
+            "position": {
+                "x": -335.821,
+                "y": 10.204,
+                "z": 53.862
+            },
+            "rotation": {
+                "x": 359.836,
+                "y": 313.804,
+                "z": -0.004
+            },
+            "velocity": {
+                "x": -3.563,
+                "y": -0.0,
+                "z": 3.412
+            },
+            "angular_velocity": {
+                "x": -0.003,
+                "y": -0.004,
+                "z": -0.004
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -340.118,
+                "y": 10.087,
+                "z": 61.243
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 318.607,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": -2.118,
+                "y": 0,
+                "z": 2.416
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.131,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": false,
+            "Has_Vertical_Inverse_Entry": true,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_4": {
+        "Ego": {
+            "position": {
+                "x": -337.734,
+                "y": 10.204,
+                "z": 55.691
+            },
+            "rotation": {
+                "x": 359.882,
+                "y": 313.705,
+                "z": -0.004
+            },
+            "velocity": {
+                "x": -4.148,
+                "y": -0.0,
+                "z": 3.96
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": -0.003,
+                "z": -0.0
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -341.452,
+                "y": 10.087,
+                "z": 62.677
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 316.278,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -3.101,
+                "y": 0,
+                "z": 3.242
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.361,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": false,
+            "Has_Vertical_Inverse_Entry": true,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_5": {
+        "Ego": {
+            "position": {
+                "x": -340.049,
+                "y": 10.204,
+                "z": 57.9
+            },
+            "rotation": {
+                "x": 359.932,
+                "y": 313.649,
+                "z": -0.002
+            },
+            "velocity": {
+                "x": -4.75,
+                "y": 0.001,
+                "z": 4.531
+            },
+            "angular_velocity": {
+                "x": 0.009,
+                "y": -0.001,
+                "z": 0.01
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -343.153,
+                "y": 10.087,
+                "z": 64.462
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 316.247,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -3.619,
+                "y": 0.0,
+                "z": 3.782
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0.464,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": false,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "out of"
+        }
+    },
+    "timestep_6": {
+        "Ego": {
+            "position": {
+                "x": -342.349,
+                "y": 10.204,
+                "z": 60.094
+            },
+            "rotation": {
+                "x": 0.036,
+                "y": 313.658,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -4.445,
+                "y": 0.001,
+                "z": 4.241
+            },
+            "angular_velocity": {
+                "x": 0.004,
+                "y": -0.001,
+                "z": 0.004
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -345.02,
+                "y": 10.087,
+                "z": 66.421
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 316.184,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -3.821,
+                "y": -0.0,
+                "z": 3.981
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.677,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": false,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "out of"
+        }
+    },
+    "timestep_7": {
+        "Ego": {
+            "position": {
+                "x": -344.614,
+                "y": 10.204,
+                "z": 62.255
+            },
+            "rotation": {
+                "x": 359.99,
+                "y": 313.652,
+                "z": 0.001
+            },
+            "velocity": {
+                "x": -4.532,
+                "y": 0.0,
+                "z": 4.325
+            },
+            "angular_velocity": {
+                "x": 0.003,
+                "y": 0.0,
+                "z": 0.003
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -346.939,
+                "y": 10.087,
+                "z": 68.434
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 316.004,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -3.879,
+                "y": 0,
+                "z": 4.02
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 1.275,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": false,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "out of"
+        }
+    },
+    "timestep_8": {
+        "Ego": {
+            "position": {
+                "x": -346.922,
+                "y": 10.204,
+                "z": 64.46
+            },
+            "rotation": {
+                "x": 359.986,
+                "y": 313.704,
+                "z": 0.003
+            },
+            "velocity": {
+                "x": -4.618,
+                "y": 0.0,
+                "z": 4.416
+            },
+            "angular_velocity": {
+                "x": 0.003,
+                "y": 0.001,
+                "z": 0.003
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -348.73,
+                "y": 10.087,
+                "z": 70.301
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 315.114,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -2.536,
+                "y": 0,
+                "z": 2.556
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.098,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": false,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "out of"
+        }
+    },
+    "timestep_9": {
+        "Ego": {
+            "position": {
+                "x": -349.271,
+                "y": 10.204,
+                "z": 66.708
+            },
+            "rotation": {
+                "x": 359.989,
+                "y": 313.751,
+                "z": 0.003
+            },
+            "velocity": {
+                "x": -4.676,
+                "y": 0.0,
+                "z": 4.479
+            },
+            "angular_velocity": {
+                "x": 0.005,
+                "y": 0.001,
+                "z": 0.005
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -349.788,
+                "y": 10.087,
+                "z": 71.34
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 314.292,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -2.014,
+                "y": 0.0,
+                "z": 1.964
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0.315,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": false,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "out of"
+        }
+    },
+    "timestep_10": {
+        "Ego": {
+            "position": {
+                "x": -351.589,
+                "y": 10.204,
+                "z": 68.93
+            },
+            "rotation": {
+                "x": 0.001,
+                "y": 313.805,
+                "z": 0.003
+            },
+            "velocity": {
+                "x": -4.601,
+                "y": 0.001,
+                "z": 4.415
+            },
+            "angular_velocity": {
+                "x": 0.002,
+                "y": 0.001,
+                "z": 0.002
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -350.789,
+                "y": 10.087,
+                "z": 72.32
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 314.281,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -2.005,
+                "y": -0.0,
+                "z": 1.955
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0.354,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": true,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_11": {
+        "Ego": {
+            "position": {
+                "x": -353.931,
+                "y": 10.204,
+                "z": 71.178
+            },
+            "rotation": {
+                "x": 359.986,
+                "y": 313.825,
+                "z": 0.001
+            },
+            "velocity": {
+                "x": -4.689,
+                "y": 0.001,
+                "z": 4.501
+            },
+            "angular_velocity": {
+                "x": 0.003,
+                "y": 0.0,
+                "z": 0.003
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -351.79,
+                "y": 10.087,
+                "z": 73.3
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 314.266,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -2.005,
+                "y": 0,
+                "z": 1.955
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.404,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": true,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_12": {
+        "Ego": {
+            "position": {
+                "x": -356.316,
+                "y": 10.204,
+                "z": 73.467
+            },
+            "rotation": {
+                "x": 359.986,
+                "y": 313.81,
+                "z": -0.001
+            },
+            "velocity": {
+                "x": -4.781,
+                "y": 0.0,
+                "z": 4.585
+            },
+            "angular_velocity": {
+                "x": 0.003,
+                "y": -0.002,
+                "z": 0.003
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -352.79,
+                "y": 10.087,
+                "z": 74.279
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 314.246,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -2.005,
+                "y": 0,
+                "z": 1.953
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0.472,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -365.363,
+                "y": 10.209,
+                "z": 87.412
+            },
+            "rotation": {
+                "x": 0.005,
+                "y": 214.825,
+                "z": 0.011
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": true,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_13": {
+        "Ego": {
+            "position": {
+                "x": -358.747,
+                "y": 10.204,
+                "z": 75.794
+            },
+            "rotation": {
+                "x": 359.986,
+                "y": 313.735,
+                "z": -0.005
+            },
+            "velocity": {
+                "x": -4.878,
+                "y": 0.001,
+                "z": 4.663
+            },
+            "angular_velocity": {
+                "x": 0.003,
+                "y": -0.004,
+                "z": 0.003
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -353.949,
+                "y": 10.087,
+                "z": 75.413
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 314.213,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -2.774,
+                "y": 0,
+                "z": 2.699
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.581,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -365.086,
+                "y": 10.208,
+                "z": 86.802
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": true,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_14": {
+        "Ego": {
+            "position": {
+                "x": -361.229,
+                "y": 10.204,
+                "z": 78.161
+            },
+            "rotation": {
+                "x": 359.984,
+                "y": 313.592,
+                "z": 359.991
+            },
+            "velocity": {
+                "x": -4.996,
+                "y": 0.0,
+                "z": 4.75
+            },
+            "angular_velocity": {
+                "x": 0.002,
+                "y": -0.006,
+                "z": 0.002
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -355.55,
+                "y": 10.087,
+                "z": 76.979
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 314.131,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -3.537,
+                "y": -0.0,
+                "z": 3.432
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0.857,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -364.831,
+                "y": 10.208,
+                "z": 86.237
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": true,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_15": {
+        "Ego": {
+            "position": {
+                "x": -363.754,
+                "y": 10.204,
+                "z": 80.549
+            },
+            "rotation": {
+                "x": -0.005,
+                "y": 313.346,
+                "z": 359.983
+            },
+            "velocity": {
+                "x": -5.059,
+                "y": 0.001,
+                "z": 4.763
+            },
+            "angular_velocity": {
+                "x": 0.001,
+                "y": -0.011,
+                "z": 0.001
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -357.418,
+                "y": 10.087,
+                "z": 78.808
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 313.813,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -3.906,
+                "y": 0,
+                "z": 3.753
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 1.9,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -364.562,
+                "y": 10.208,
+                "z": 85.645
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": true,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_16": {
+        "Ego": {
+            "position": {
+                "x": -366.383,
+                "y": 10.204,
+                "z": 83.008
+            },
+            "rotation": {
+                "x": 359.963,
+                "y": 312.992,
+                "z": 359.977
+            },
+            "velocity": {
+                "x": -5.368,
+                "y": 0.0,
+                "z": 4.991
+            },
+            "angular_velocity": {
+                "x": 0.002,
+                "y": -0.014,
+                "z": 0.002
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -357.898,
+                "y": 10.087,
+                "z": 79.267
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 313.45,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -0.079,
+                "y": -0.0,
+                "z": 0.076
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -364.315,
+                "y": 10.208,
+                "z": 85.098
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": true,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "in"
+        }
+    },
+    "timestep_17": {
+        "Ego": {
+            "position": {
+                "x": -368.993,
+                "y": 10.204,
+                "z": 85.412
+            },
+            "rotation": {
+                "x": 0.061,
+                "y": 312.514,
+                "z": 359.965
+            },
+            "velocity": {
+                "x": -5.013,
+                "y": 0.001,
+                "z": 4.571
+            },
+            "angular_velocity": {
+                "x": 0.003,
+                "y": -0.022,
+                "z": 0.002
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -358.086,
+                "y": 10.087,
+                "z": 79.449
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 313.978,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.157,
+                "y": 0.0,
+                "z": 1.115
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.17,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -364.092,
+                "y": 10.208,
+                "z": 84.606
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": true,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "in"
+        }
+    },
+    "timestep_18": {
+        "Ego": {
+            "position": {
+                "x": -371.716,
+                "y": 10.204,
+                "z": 87.847
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 311.496,
+                "z": 359.927
+            },
+            "velocity": {
+                "x": -5.478,
+                "y": 0.001,
+                "z": 4.802
+            },
+            "angular_velocity": {
+                "x": 0.005,
+                "y": -0.042,
+                "z": 0.005
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -358.654,
+                "y": 10.087,
+                "z": 79.998
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 313.979,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -0.516,
+                "y": 0.0,
+                "z": 0.497
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0.15,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -363.815,
+                "y": 10.208,
+                "z": 83.996
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": true,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "in"
+        }
+    },
+    "timestep_19": {
+        "Ego": {
+            "position": {
+                "x": -374.346,
+                "y": 10.204,
+                "z": 90.085
+            },
+            "rotation": {
+                "x": 0.074,
+                "y": 309.992,
+                "z": 359.895
+            },
+            "velocity": {
+                "x": -5.049,
+                "y": 0.001,
+                "z": 4.163
+            },
+            "angular_velocity": {
+                "x": 0.003,
+                "y": -0.062,
+                "z": 0.003
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -358.867,
+                "y": 10.087,
+                "z": 80.204
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 313.979,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -0.406,
+                "y": 0,
+                "z": 0.391
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0.152,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -363.555,
+                "y": 10.208,
+                "z": 83.422
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": true,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "in"
+        }
+    },
+    "timestep_20": {
+        "Ego": {
+            "position": {
+                "x": -376.72,
+                "y": 10.204,
+                "z": 91.961
+            },
+            "rotation": {
+                "x": 0.113,
+                "y": 307.876,
+                "z": 359.868
+            },
+            "velocity": {
+                "x": -4.42,
+                "y": 0.001,
+                "z": 3.325
+            },
+            "angular_velocity": {
+                "x": 0.002,
+                "y": -0.086,
+                "z": 0.002
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -359.068,
+                "y": 10.087,
+                "z": 80.399
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 313.979,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -0.403,
+                "y": 0,
+                "z": 0.389
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.153,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -363.3,
+                "y": 10.207,
+                "z": 82.858
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": true,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "in"
+        }
+    },
+    "timestep_21": {
+        "Ego": {
+            "position": {
+                "x": -378.793,
+                "y": 10.204,
+                "z": 93.342
+            },
+            "rotation": {
+                "x": 0.127,
+                "y": 303.11,
+                "z": 359.727
+            },
+            "velocity": {
+                "x": -3.886,
+                "y": 0.001,
+                "z": 2.241
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.212,
+                "z": -0.001
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -358.071,
+                "y": 10.085,
+                "z": 79.448
+            },
+            "rotation": {
+                "x": 359.94,
+                "y": 313.987,
+                "z": 0.676
+            },
+            "velocity": {
+                "x": 1.981,
+                "y": 0.011,
+                "z": -1.927
+            },
+            "angular_velocity": {
+                "x": 0.005,
+                "y": 0.152,
+                "z": -0.032
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -363.077,
+                "y": 10.207,
+                "z": 82.366
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": true,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "in"
+        }
+    },
+    "timestep_22": {
+        "Ego": {
+            "position": {
+                "x": -380.68,
+                "y": 10.204,
+                "z": 94.188
+            },
+            "rotation": {
+                "x": 0.077,
+                "y": 294.654,
+                "z": 359.617
+            },
+            "velocity": {
+                "x": -3.635,
+                "y": 0.0,
+                "z": 1.216
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.333,
+                "z": 0.006
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -356.932,
+                "y": 10.087,
+                "z": 78.344
+            },
+            "rotation": {
+                "x": -0.003,
+                "y": 314.074,
+                "z": 359.984
+            },
+            "velocity": {
+                "x": 2.371,
+                "y": 0.001,
+                "z": -2.289
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0,
+                "z": -0.01
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -362.829,
+                "y": 10.207,
+                "z": 81.819
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "in"
+        }
+    },
+    "timestep_23": {
+        "Ego": {
+            "position": {
+                "x": -382.406,
+                "y": 10.204,
+                "z": 94.488
+            },
+            "rotation": {
+                "x": 0.088,
+                "y": 282.565,
+                "z": 359.58
+            },
+            "velocity": {
+                "x": -3.274,
+                "y": 0.0,
+                "z": 0.162
+            },
+            "angular_velocity": {
+                "x": -0.006,
+                "y": -0.422,
+                "z": -0.0
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -355.991,
+                "y": 10.087,
+                "z": 77.434
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.997,
+                "z": 359.958
+            },
+            "velocity": {
+                "x": 1.022,
+                "y": -0.0,
+                "z": -0.99
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0.132,
+                "z": 0.002
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -362.586,
+                "y": 10.207,
+                "z": 81.282
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "in"
+        }
+    },
+    "timestep_24": {
+        "Ego": {
+            "position": {
+                "x": -384.097,
+                "y": 10.204,
+                "z": 94.277
+            },
+            "rotation": {
+                "x": 359.931,
+                "y": 267.307,
+                "z": 359.496
+            },
+            "velocity": {
+                "x": -3.781,
+                "y": -0.0,
+                "z": -0.798
+            },
+            "angular_velocity": {
+                "x": -0.021,
+                "y": -0.482,
+                "z": -0.003
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -355.939,
+                "y": 10.087,
+                "z": 77.384
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.996,
+                "z": 0.003
+            },
+            "velocity": {
+                "x": -0.589,
+                "y": 0,
+                "z": 0.563
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.131,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -362.342,
+                "y": 10.207,
+                "z": 80.744
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -392.492,
+                "y": 10.066,
+                "z": 96.634
+            },
+            "rotation": {
+                "x": 0.069,
+                "y": 257.601,
+                "z": 359.802
+            },
+            "velocity": {
+                "x": -1.178,
+                "y": -0.079,
+                "z": -0.244
+            },
+            "angular_velocity": {
+                "x": 0.003,
+                "y": -0.546,
+                "z": 0.011
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "in"
+        }
+    },
+    "timestep_25": {
+        "Ego": {
+            "position": {
+                "x": -385.933,
+                "y": 10.204,
+                "z": 93.636
+            },
+            "rotation": {
+                "x": 0.008,
+                "y": 253.256,
+                "z": 359.539
+            },
+            "velocity": {
+                "x": -3.558,
+                "y": 0.0,
+                "z": -1.64
+            },
+            "angular_velocity": {
+                "x": -0.008,
+                "y": -0.435,
+                "z": 0.001
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -356.469,
+                "y": 10.087,
+                "z": 77.897
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.995,
+                "z": 0.003
+            },
+            "velocity": {
+                "x": -1.37,
+                "y": 0,
+                "z": 1.318
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.134,
+                "z": -0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -362.099,
+                "y": 10.207,
+                "z": 80.207
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -393.288,
+                "y": 10.056,
+                "z": 96.371
+            },
+            "rotation": {
+                "x": 0.026,
+                "y": 247.893,
+                "z": 0.039
+            },
+            "velocity": {
+                "x": -1.883,
+                "y": -0.002,
+                "z": -0.756
+            },
+            "angular_velocity": {
+                "x": -0.002,
+                "y": -0.21,
+                "z": 0.005
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "in"
+        }
+    },
+    "timestep_26": {
+        "Ego": {
+            "position": {
+                "x": -387.736,
+                "y": 10.204,
+                "z": 92.745
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 245.014,
+                "z": 359.742
+            },
+            "velocity": {
+                "x": -3.649,
+                "y": -0.0,
+                "z": -2.036
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": -0.252,
+                "z": -0.003
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -357.232,
+                "y": 10.087,
+                "z": 78.635
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.994,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": -1.62,
+                "y": -0.0,
+                "z": 1.559
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0.139,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -361.847,
+                "y": 10.207,
+                "z": 79.651
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -394.551,
+                "y": 10.056,
+                "z": 95.792
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 243.699,
+                "z": 0.057
+            },
+            "velocity": {
+                "x": -3.354,
+                "y": 0,
+                "z": -1.649
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": -0.115,
+                "z": -0.002
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "in"
+        }
+    },
+    "timestep_27": {
+        "Ego": {
+            "position": {
+                "x": -389.861,
+                "y": 10.204,
+                "z": 91.459
+            },
+            "rotation": {
+                "x": 359.885,
+                "y": 238.947,
+                "z": 359.74
+            },
+            "velocity": {
+                "x": -4.551,
+                "y": -0.0,
+                "z": -3.008
+            },
+            "angular_velocity": {
+                "x": 0.002,
+                "y": -0.214,
+                "z": 0.007
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -358.059,
+                "y": 10.087,
+                "z": 79.434
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.992,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": -1.678,
+                "y": 0,
+                "z": 1.615
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0.145,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -361.62,
+                "y": 10.207,
+                "z": 79.15
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -396.538,
+                "y": 10.056,
+                "z": 94.781
+            },
+            "rotation": {
+                "x": -0.001,
+                "y": 242.963,
+                "z": 0.001
+            },
+            "velocity": {
+                "x": -4.395,
+                "y": 0.0,
+                "z": -2.244
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.045,
+                "z": -0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "in"
+        }
+    },
+    "timestep_28": {
+        "Ego": {
+            "position": {
+                "x": -392.365,
+                "y": 10.204,
+                "z": 89.751
+            },
+            "rotation": {
+                "x": 359.821,
+                "y": 235.702,
+                "z": 359.911
+            },
+            "velocity": {
+                "x": -5.69,
+                "y": -0.001,
+                "z": -3.904
+            },
+            "angular_velocity": {
+                "x": -0.005,
+                "y": -0.025,
+                "z": -0.009
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -358.9,
+                "y": 10.087,
+                "z": 80.247
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.99,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.691,
+                "y": 0,
+                "z": 1.628
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.152,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -361.385,
+                "y": 10.206,
+                "z": 78.631
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -398.862,
+                "y": 10.056,
+                "z": 93.594
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 242.968,
+                "z": 359.989
+            },
+            "velocity": {
+                "x": -4.807,
+                "y": 0,
+                "z": -2.453
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": -0.062,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "in"
+        }
+    },
+    "timestep_29": {
+        "Ego": {
+            "position": {
+                "x": -395.281,
+                "y": 10.204,
+                "z": 87.801
+            },
+            "rotation": {
+                "x": 359.891,
+                "y": 236.629,
+                "z": 0.091
+            },
+            "velocity": {
+                "x": -6.327,
+                "y": -0.0,
+                "z": -4.1
+            },
+            "angular_velocity": {
+                "x": 0.003,
+                "y": 0.069,
+                "z": -0.013
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -359.745,
+                "y": 10.087,
+                "z": 81.065
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.987,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.697,
+                "y": 0.0,
+                "z": 1.633
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.159,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -361.141,
+                "y": 10.206,
+                "z": 78.094
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -401.308,
+                "y": 10.056,
+                "z": 92.345
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 242.98,
+                "z": -0.002
+            },
+            "velocity": {
+                "x": -4.941,
+                "y": 0,
+                "z": -2.52
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": -0.104,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "in"
+        }
+    },
+    "timestep_30": {
+        "Ego": {
+            "position": {
+                "x": -398.521,
+                "y": 10.204,
+                "z": 85.715
+            },
+            "rotation": {
+                "x": 359.95,
+                "y": 237.393,
+                "z": 0.051
+            },
+            "velocity": {
+                "x": -6.636,
+                "y": 0.0,
+                "z": -4.217
+            },
+            "angular_velocity": {
+                "x": -0.003,
+                "y": 0.03,
+                "z": 0.002
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -360.593,
+                "y": 10.087,
+                "z": 81.885
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.984,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.703,
+                "y": -0.0,
+                "z": 1.639
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0.167,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -360.894,
+                "y": 10.206,
+                "z": 77.547
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -403.789,
+                "y": 10.056,
+                "z": 91.078
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 243.042,
+                "z": 0.002
+            },
+            "velocity": {
+                "x": -4.98,
+                "y": 0,
+                "z": -2.534
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.303,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "in"
+        }
+    },
+    "timestep_31": {
+        "Ego": {
+            "position": {
+                "x": -402.018,
+                "y": 10.204,
+                "z": 83.592
+            },
+            "rotation": {
+                "x": 359.951,
+                "y": 239.434,
+                "z": 0.152
+            },
+            "velocity": {
+                "x": -7.224,
+                "y": 0.001,
+                "z": -4.22
+            },
+            "angular_velocity": {
+                "x": -0.001,
+                "y": 0.069,
+                "z": 0.003
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -361.444,
+                "y": 10.087,
+                "z": 82.708
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.982,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.709,
+                "y": 0,
+                "z": 1.645
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.176,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -360.654,
+                "y": 10.206,
+                "z": 77.019
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -406.269,
+                "y": 10.056,
+                "z": 89.783
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 242.287,
+                "z": 0.001
+            },
+            "velocity": {
+                "x": -4.953,
+                "y": -0.0,
+                "z": -2.6
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0.077,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "in"
+        }
+    },
+    "timestep_32": {
+        "Ego": {
+            "position": {
+                "x": -405.659,
+                "y": 10.204,
+                "z": 81.546
+            },
+            "rotation": {
+                "x": 0.008,
+                "y": 241.34,
+                "z": 0.159
+            },
+            "velocity": {
+                "x": -7.301,
+                "y": 0.0,
+                "z": -3.929
+            },
+            "angular_velocity": {
+                "x": -0.002,
+                "y": 0.082,
+                "z": 0.0
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -362.298,
+                "y": 10.087,
+                "z": 83.534
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.979,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.715,
+                "y": 0,
+                "z": 1.65
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.185,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -360.419,
+                "y": 10.206,
+                "z": 76.5
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -408.711,
+                "y": 10.056,
+                "z": 88.51
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 243.249,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": -4.297,
+                "y": 0.0,
+                "z": -2.184
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0.171,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Double Yellow",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Opposite Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "in"
+        }
+    },
+    "timestep_33": {
+        "Ego": {
+            "position": {
+                "x": -409.285,
+                "y": 10.204,
+                "z": 79.71
+            },
+            "rotation": {
+                "x": 0.035,
+                "y": 244.02,
+                "z": 0.196
+            },
+            "velocity": {
+                "x": -7.196,
+                "y": 0.0,
+                "z": -3.443
+            },
+            "angular_velocity": {
+                "x": 0.001,
+                "y": 0.087,
+                "z": 0.001
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -363.156,
+                "y": 10.087,
+                "z": 84.363
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.975,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.724,
+                "y": 0.0,
+                "z": 1.656
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.196,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -360.192,
+                "y": 10.206,
+                "z": 75.999
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -410.924,
+                "y": 10.056,
+                "z": 87.492
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 246.817,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": -4.651,
+                "y": 0,
+                "z": -1.987
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": -0.099,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_34": {
+        "Ego": {
+            "position": {
+                "x": -412.845,
+                "y": 10.204,
+                "z": 78.099
+            },
+            "rotation": {
+                "x": 0.037,
+                "y": 246.426,
+                "z": 0.188
+            },
+            "velocity": {
+                "x": -7.052,
+                "y": 0.001,
+                "z": -2.996
+            },
+            "angular_velocity": {
+                "x": -0.002,
+                "y": 0.099,
+                "z": -0.0
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -364.017,
+                "y": 10.087,
+                "z": 85.195
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.971,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.73,
+                "y": 0,
+                "z": 1.661
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.209,
+                "z": -0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -359.944,
+                "y": 10.206,
+                "z": 75.452
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -413.323,
+                "y": 10.056,
+                "z": 86.467
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 246.94,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -4.907,
+                "y": 0,
+                "z": -2.103
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.1,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_35": {
+        "Ego": {
+            "position": {
+                "x": -416.24,
+                "y": 10.204,
+                "z": 76.743
+            },
+            "rotation": {
+                "x": 0.087,
+                "y": 248.839,
+                "z": 0.154
+            },
+            "velocity": {
+                "x": -6.526,
+                "y": 0.001,
+                "z": -2.458
+            },
+            "angular_velocity": {
+                "x": 0.002,
+                "y": 0.076,
+                "z": -0.003
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -364.88,
+                "y": 10.087,
+                "z": 86.03
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.967,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.736,
+                "y": -0.0,
+                "z": 1.668
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0.223,
+                "z": -0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -359.693,
+                "y": 10.205,
+                "z": 74.896
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -415.819,
+                "y": 10.056,
+                "z": 85.4
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 246.872,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -5.054,
+                "y": 0.0,
+                "z": -2.147
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.034,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_36": {
+        "Ego": {
+            "position": {
+                "x": -419.403,
+                "y": 10.204,
+                "z": 75.612
+            },
+            "rotation": {
+                "x": 0.053,
+                "y": 250.743,
+                "z": 0.12
+            },
+            "velocity": {
+                "x": -6.17,
+                "y": 0.001,
+                "z": -2.091
+            },
+            "angular_velocity": {
+                "x": 0.001,
+                "y": 0.068,
+                "z": -0.002
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -365.747,
+                "y": 10.087,
+                "z": 86.868
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.962,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.746,
+                "y": 0,
+                "z": 1.672
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0.239,
+                "z": -0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -359.449,
+                "y": 10.205,
+                "z": 74.359
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -418.362,
+                "y": 10.056,
+                "z": 84.313
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 246.6,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -5.115,
+                "y": -0.0,
+                "z": -2.184
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": -0.576,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -435.776,
+                "y": 10.184,
+                "z": 73.247
+            },
+            "rotation": {
+                "x": 0.069,
+                "y": 148.039,
+                "z": 0.006
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_37": {
+        "Ego": {
+            "position": {
+                "x": -422.347,
+                "y": 10.204,
+                "z": 74.673
+            },
+            "rotation": {
+                "x": 0.055,
+                "y": 252.621,
+                "z": 0.096
+            },
+            "velocity": {
+                "x": -5.759,
+                "y": 0.0,
+                "z": -1.75
+            },
+            "angular_velocity": {
+                "x": 0.004,
+                "y": 0.051,
+                "z": -0.007
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -366.617,
+                "y": 10.087,
+                "z": 87.708
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.956,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.749,
+                "y": 0,
+                "z": 1.678
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.258,
+                "z": -0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -359.206,
+                "y": 10.205,
+                "z": 73.821
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -420.405,
+                "y": 10.056,
+                "z": 83.53
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 252.349,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": -3.18,
+                "y": 0,
+                "z": -1.023
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.165,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -435.186,
+                "y": 10.185,
+                "z": 73.241
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_38": {
+        "Ego": {
+            "position": {
+                "x": -425.063,
+                "y": 10.204,
+                "z": 73.891
+            },
+            "rotation": {
+                "x": 0.051,
+                "y": 254.168,
+                "z": 0.087
+            },
+            "velocity": {
+                "x": -5.319,
+                "y": 0.001,
+                "z": -1.441
+            },
+            "angular_velocity": {
+                "x": 0.001,
+                "y": 0.061,
+                "z": -0.007
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -367.49,
+                "y": 10.087,
+                "z": 88.552
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.949,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.758,
+                "y": 0,
+                "z": 1.682
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.28,
+                "z": -0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -358.942,
+                "y": 10.205,
+                "z": 73.239
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -421.856,
+                "y": 10.056,
+                "z": 83.116
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 255.547,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -2.808,
+                "y": 0,
+                "z": -0.728
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.077,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -434.546,
+                "y": 10.185,
+                "z": 73.234
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": false,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "out of"
+        }
+    },
+    "timestep_39": {
+        "Ego": {
+            "position": {
+                "x": -427.606,
+                "y": 10.204,
+                "z": 73.154
+            },
+            "rotation": {
+                "x": 0.032,
+                "y": 253.802,
+                "z": -0.001
+            },
+            "velocity": {
+                "x": -5.024,
+                "y": 0.0,
+                "z": -1.444
+            },
+            "angular_velocity": {
+                "x": -0.003,
+                "y": 0.014,
+                "z": -0.007
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -368.365,
+                "y": 10.087,
+                "z": 89.398
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.941,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.758,
+                "y": 0.0,
+                "z": 1.688
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0.306,
+                "z": -0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -358.69,
+                "y": 10.205,
+                "z": 72.683
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -423.587,
+                "y": 10.056,
+                "z": 82.701
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 257.283,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -3.986,
+                "y": -0.0,
+                "z": -0.904
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0.054,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -433.936,
+                "y": 10.185,
+                "z": 73.227
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": false,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "out of"
+        }
+    },
+    "timestep_40": {
+        "Ego": {
+            "position": {
+                "x": -429.902,
+                "y": 10.204,
+                "z": 72.582
+            },
+            "rotation": {
+                "x": 0.118,
+                "y": 256.075,
+                "z": 0.091
+            },
+            "velocity": {
+                "x": -4.112,
+                "y": 0.001,
+                "z": -0.94
+            },
+            "angular_velocity": {
+                "x": 0.002,
+                "y": 0.065,
+                "z": 0.002
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -369.243,
+                "y": 10.087,
+                "z": 90.247
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.931,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.77,
+                "y": 0,
+                "z": 1.693
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.338,
+                "z": -0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -358.442,
+                "y": 10.205,
+                "z": 72.136
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -425.801,
+                "y": 10.057,
+                "z": 82.201
+            },
+            "rotation": {
+                "x": 359.981,
+                "y": 257.354,
+                "z": 359.953
+            },
+            "velocity": {
+                "x": -4.745,
+                "y": 0.023,
+                "z": -1.111
+            },
+            "angular_velocity": {
+                "x": -0.006,
+                "y": -0.021,
+                "z": -0.01
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -433.336,
+                "y": 10.185,
+                "z": 73.22
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": false,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": true,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_41": {
+        "Ego": {
+            "position": {
+                "x": -431.479,
+                "y": 10.152,
+                "z": 72.19
+            },
+            "rotation": {
+                "x": 359.259,
+                "y": 257.787,
+                "z": 1.027
+            },
+            "velocity": {
+                "x": 0.073,
+                "y": -0.537,
+                "z": -0.19
+            },
+            "angular_velocity": {
+                "x": -0.127,
+                "y": 0.01,
+                "z": -0.262
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -370.125,
+                "y": 10.087,
+                "z": 91.099
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.919,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.773,
+                "y": 0,
+                "z": 1.698
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0.377,
+                "z": -0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -358.174,
+                "y": 10.205,
+                "z": 71.544
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -428.296,
+                "y": 10.053,
+                "z": 81.624
+            },
+            "rotation": {
+                "x": 0.006,
+                "y": 257.39,
+                "z": 359.672
+            },
+            "velocity": {
+                "x": -5.151,
+                "y": -0.239,
+                "z": -1.165
+            },
+            "angular_velocity": {
+                "x": 0.047,
+                "y": -0.019,
+                "z": -0.06
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -432.686,
+                "y": 10.186,
+                "z": 73.213
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": true
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_42": {
+        "Ego": {
+            "position": {
+                "x": -430.292,
+                "y": 10.155,
+                "z": 72.271
+            },
+            "rotation": {
+                "x": 359.393,
+                "y": 259.25,
+                "z": 1.626
+            },
+            "velocity": {
+                "x": 3.472,
+                "y": 0.265,
+                "z": 0.655
+            },
+            "angular_velocity": {
+                "x": 0.107,
+                "y": -0.019,
+                "z": 0.064
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -371.009,
+                "y": 10.087,
+                "z": 91.954
+            },
+            "rotation": {
+                "x": -0.003,
+                "y": 313.904,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.782,
+                "y": 0,
+                "z": 1.701
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.427,
+                "z": -0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -357.926,
+                "y": 10.205,
+                "z": 70.998
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -430.938,
+                "y": 10.054,
+                "z": 81.032
+            },
+            "rotation": {
+                "x": 0.089,
+                "y": 257.347,
+                "z": 359.303
+            },
+            "velocity": {
+                "x": -5.365,
+                "y": 0.012,
+                "z": -1.197
+            },
+            "angular_velocity": {
+                "x": -0.011,
+                "y": -0.015,
+                "z": 0.016
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -432.086,
+                "y": 10.186,
+                "z": 73.206
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": true
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": false,
+            "Has_Vertical_Inverse_Entry": true,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_43": {
+        "Ego": {
+            "position": {
+                "x": -428.629,
+                "y": 10.203,
+                "z": 72.586
+            },
+            "rotation": {
+                "x": 359.952,
+                "y": 259.248,
+                "z": 0.075
+            },
+            "velocity": {
+                "x": 3.216,
+                "y": 0.011,
+                "z": 0.605
+            },
+            "angular_velocity": {
+                "x": 0.009,
+                "y": -0.006,
+                "z": 0.005
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -371.896,
+                "y": 10.087,
+                "z": 92.812
+            },
+            "rotation": {
+                "x": -0.003,
+                "y": 313.885,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.788,
+                "y": 0,
+                "z": 1.706
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.492,
+                "z": -0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -357.679,
+                "y": 10.204,
+                "z": 70.451
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -433.621,
+                "y": 10.056,
+                "z": 80.433
+            },
+            "rotation": {
+                "x": 359.987,
+                "y": 257.399,
+                "z": 359.912
+            },
+            "velocity": {
+                "x": -5.24,
+                "y": 0.0,
+                "z": -1.171
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.031,
+                "z": 0.017
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -431.486,
+                "y": 10.186,
+                "z": 73.199
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": true
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": false,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "out of"
+        }
+    },
+    "timestep_44": {
+        "Ego": {
+            "position": {
+                "x": -427.165,
+                "y": 10.204,
+                "z": 72.861
+            },
+            "rotation": {
+                "x": 359.944,
+                "y": 259.084,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 2.672,
+                "y": 0.0,
+                "z": 0.499
+            },
+            "angular_velocity": {
+                "x": -0.001,
+                "y": -0.01,
+                "z": -0.002
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -372.787,
+                "y": 10.087,
+                "z": 93.673
+            },
+            "rotation": {
+                "x": -0.003,
+                "y": 313.858,
+                "z": 0.001
+            },
+            "velocity": {
+                "x": -1.794,
+                "y": 0,
+                "z": 1.71
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.581,
+                "z": -0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -357.431,
+                "y": 10.204,
+                "z": 69.905
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -436.041,
+                "y": 10.056,
+                "z": 79.893
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 257.401,
+                "z": 0.135
+            },
+            "velocity": {
+                "x": -4.449,
+                "y": 0.0,
+                "z": -0.994
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.038,
+                "z": -0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -430.886,
+                "y": 10.186,
+                "z": 73.193
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": true
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": false,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "out of"
+        }
+    },
+    "timestep_45": {
+        "Ego": {
+            "position": {
+                "x": -425.958,
+                "y": 10.204,
+                "z": 73.089
+            },
+            "rotation": {
+                "x": 359.944,
+                "y": 258.83,
+                "z": 0.003
+            },
+            "velocity": {
+                "x": 2.19,
+                "y": 0.0,
+                "z": 0.415
+            },
+            "angular_velocity": {
+                "x": -0.001,
+                "y": -0.012,
+                "z": -0.0
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -373.68,
+                "y": 10.087,
+                "z": 94.536
+            },
+            "rotation": {
+                "x": -0.003,
+                "y": 313.819,
+                "z": 0.001
+            },
+            "velocity": {
+                "x": -1.807,
+                "y": 0,
+                "z": 1.712
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.709,
+                "z": -0.002
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -357.175,
+                "y": 10.204,
+                "z": 69.34
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -438.047,
+                "y": 10.056,
+                "z": 79.443
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 257.404,
+                "z": 0.037
+            },
+            "velocity": {
+                "x": -3.644,
+                "y": 0,
+                "z": -0.816
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.047,
+                "z": -0.004
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -430.266,
+                "y": 10.187,
+                "z": 73.186
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": true
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": false,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "out of"
+        }
+    },
+    "timestep_46": {
+        "Ego": {
+            "position": {
+                "x": -425.059,
+                "y": 10.204,
+                "z": 73.262
+            },
+            "rotation": {
+                "x": 359.938,
+                "y": 258.601,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 1.562,
+                "y": 0.0,
+                "z": 0.298
+            },
+            "angular_velocity": {
+                "x": -0.001,
+                "y": -0.011,
+                "z": 0.001
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -374.577,
+                "y": 10.087,
+                "z": 95.403
+            },
+            "rotation": {
+                "x": -0.004,
+                "y": 313.759,
+                "z": 0.001
+            },
+            "velocity": {
+                "x": -1.819,
+                "y": -0.0,
+                "z": 1.713
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.91,
+                "z": -0.002
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -356.948,
+                "y": 10.204,
+                "z": 68.839
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -439.684,
+                "y": 10.056,
+                "z": 79.077
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 257.407,
+                "z": 359.98
+            },
+            "velocity": {
+                "x": -2.966,
+                "y": 0.0,
+                "z": -0.663
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": -0.058,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -429.716,
+                "y": 10.187,
+                "z": 73.18
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": true
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": false,
+            "Has_Horizontal_Right_Entry": false,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "out of"
+        }
+    },
+    "timestep_47": {
+        "Ego": {
+            "position": {
+                "x": -424.422,
+                "y": 10.204,
+                "z": 73.386
+            },
+            "rotation": {
+                "x": 359.946,
+                "y": 258.396,
+                "z": 0.002
+            },
+            "velocity": {
+                "x": 1.057,
+                "y": 0.0,
+                "z": 0.206
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.008,
+                "z": -0.0
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -375.477,
+                "y": 10.087,
+                "z": 96.272
+            },
+            "rotation": {
+                "x": -0.005,
+                "y": 313.652,
+                "z": 0.001
+            },
+            "velocity": {
+                "x": -1.834,
+                "y": 0,
+                "z": 1.711
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 1.268,
+                "z": -0.003
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -356.701,
+                "y": 10.204,
+                "z": 68.292
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -441.015,
+                "y": 10.056,
+                "z": 78.779
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 257.411,
+                "z": 359.99
+            },
+            "velocity": {
+                "x": -2.411,
+                "y": 0,
+                "z": -0.538
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": -0.071,
+                "z": 0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -429.106,
+                "y": 10.187,
+                "z": 73.173
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": true
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_48": {
+        "Ego": {
+            "position": {
+                "x": -423.962,
+                "y": 10.204,
+                "z": 73.477
+            },
+            "rotation": {
+                "x": 359.967,
+                "y": 258.234,
+                "z": 0.003
+            },
+            "velocity": {
+                "x": 0.802,
+                "y": 0.0,
+                "z": 0.16
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": -0.004,
+                "z": 0.0
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -376.38,
+                "y": 10.087,
+                "z": 97.146
+            },
+            "rotation": {
+                "x": 359.992,
+                "y": 313.414,
+                "z": 0.002
+            },
+            "velocity": {
+                "x": -1.862,
+                "y": -0.0,
+                "z": 1.7
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 2.063,
+                "z": -0.005
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -356.701,
+                "y": 10.204,
+                "z": 68.292
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -442.096,
+                "y": 10.056,
+                "z": 78.537
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 257.416,
+                "z": 0.003
+            },
+            "velocity": {
+                "x": -1.959,
+                "y": 0,
+                "z": -0.437
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.087,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -428.516,
+                "y": 10.187,
+                "z": 73.166
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPC87432936-400a-40": {
+            "position": {
+                "x": -442.766,
+                "y": 10.223,
+                "z": 65.737
+            },
+            "rotation": {
+                "x": 0.012,
+                "y": 353.796,
+                "z": 359.96
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_49": {
+        "Ego": {
+            "position": {
+                "x": -423.862,
+                "y": 10.204,
+                "z": 73.497
+            },
+            "rotation": {
+                "x": 359.927,
+                "y": 258.202,
+                "z": 0.002
+            },
+            "velocity": {
+                "x": -0.067,
+                "y": 0.0,
+                "z": -0.014
+            },
+            "angular_velocity": {
+                "x": -0.001,
+                "y": -0.0,
+                "z": 0.006
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -377.288,
+                "y": 10.087,
+                "z": 98.023
+            },
+            "rotation": {
+                "x": 359.99,
+                "y": 313.92,
+                "z": 0.005
+            },
+            "velocity": {
+                "x": -1.819,
+                "y": 0.0,
+                "z": 1.756
+            },
+            "angular_velocity": {
+                "x": 0.001,
+                "y": -0.142,
+                "z": 0.003
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -365.59,
+                "y": 10.209,
+                "z": 87.913
+            },
+            "rotation": {
+                "x": 359.986,
+                "y": 313.825,
+                "z": 0.001
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -442.974,
+                "y": 10.056,
+                "z": 78.341
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 257.422,
+                "z": 0.002
+            },
+            "velocity": {
+                "x": -1.59,
+                "y": -0.0,
+                "z": -0.356
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.106,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -427.926,
+                "y": 10.188,
+                "z": 73.16
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPC87432936-400a-40": {
+            "position": {
+                "x": -442.274,
+                "y": 10.222,
+                "z": 66.062
+            },
+            "rotation": {
+                "x": 0.05,
+                "y": 56.595,
+                "z": 0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_50": {
+        "Ego": {
+            "position": {
+                "x": -423.931,
+                "y": 10.204,
+                "z": 73.483
+            },
+            "rotation": {
+                "x": 359.982,
+                "y": 258.216,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -0.196,
+                "y": 0.0,
+                "z": -0.04
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0.003,
+                "z": 0.001
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -378.202,
+                "y": 10.087,
+                "z": 98.901
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.922,
+                "z": 0.013
+            },
+            "velocity": {
+                "x": -1.828,
+                "y": 0.0,
+                "z": 1.763
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.155,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -365.318,
+                "y": 10.209,
+                "z": 87.312
+            },
+            "rotation": {
+                "x": 0.009,
+                "y": 195.025,
+                "z": 0.008
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -443.688,
+                "y": 10.056,
+                "z": 78.181
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 257.429,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": -1.291,
+                "y": 0,
+                "z": -0.288
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.13,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -427.266,
+                "y": 10.188,
+                "z": 73.152
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPC87432936-400a-40": {
+            "position": {
+                "x": -441.723,
+                "y": 10.222,
+                "z": 66.425
+            },
+            "rotation": {
+                "x": 0.05,
+                "y": 56.595,
+                "z": 0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_51": {
+        "Ego": {
+            "position": {
+                "x": -423.903,
+                "y": 10.202,
+                "z": 73.48
+            },
+            "rotation": {
+                "x": 359.882,
+                "y": 258.08,
+                "z": 0.117
+            },
+            "velocity": {
+                "x": 2.424,
+                "y": -0.032,
+                "z": 0.443
+            },
+            "angular_velocity": {
+                "x": -0.036,
+                "y": -0.02,
+                "z": -0.025
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -379.119,
+                "y": 10.087,
+                "z": 99.782
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.923,
+                "z": -0.001
+            },
+            "velocity": {
+                "x": -1.834,
+                "y": 0,
+                "z": 1.769
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": -0.163,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -365.086,
+                "y": 10.208,
+                "z": 86.802
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -444.267,
+                "y": 10.056,
+                "z": 78.052
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 257.438,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": -1.05,
+                "y": -0.0,
+                "z": -0.234
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.158,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -426.706,
+                "y": 10.188,
+                "z": 73.146
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": true
+        },
+        "NPC87432936-400a-40": {
+            "position": {
+                "x": -441.255,
+                "y": 10.221,
+                "z": 66.734
+            },
+            "rotation": {
+                "x": 0.05,
+                "y": 56.595,
+                "z": 0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_52": {
+        "Ego": {
+            "position": {
+                "x": -422.876,
+                "y": 10.204,
+                "z": 73.69
+            },
+            "rotation": {
+                "x": 359.895,
+                "y": 257.74,
+                "z": 0.039
+            },
+            "velocity": {
+                "x": 1.689,
+                "y": 0.004,
+                "z": 0.355
+            },
+            "angular_velocity": {
+                "x": 0.003,
+                "y": -0.009,
+                "z": 0.004
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -380.039,
+                "y": 10.087,
+                "z": 100.666
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.925,
+                "z": -0.001
+            },
+            "velocity": {
+                "x": -1.84,
+                "y": 0.0,
+                "z": 1.775
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.172,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -364.843,
+                "y": 10.208,
+                "z": 86.264
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -444.738,
+                "y": 10.056,
+                "z": 77.946
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 257.448,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -0.851,
+                "y": -0.0,
+                "z": -0.19
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": -0.192,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -426.116,
+                "y": 10.188,
+                "z": 73.139
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": true
+        },
+        "NPC87432936-400a-40": {
+            "position": {
+                "x": -440.763,
+                "y": 10.221,
+                "z": 67.058
+            },
+            "rotation": {
+                "x": 0.05,
+                "y": 56.595,
+                "z": 0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_53": {
+        "Ego": {
+            "position": {
+                "x": -422.304,
+                "y": 10.204,
+                "z": 73.811
+            },
+            "rotation": {
+                "x": 359.853,
+                "y": 257.561,
+                "z": 0.005
+            },
+            "velocity": {
+                "x": 0.592,
+                "y": 0.0,
+                "z": 0.123
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": -0.007,
+                "z": 0.006
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -380.961,
+                "y": 10.087,
+                "z": 101.553
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.928,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.843,
+                "y": -0.0,
+                "z": 1.781
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.182,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -364.558,
+                "y": 10.208,
+                "z": 85.636
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -445.121,
+                "y": 10.056,
+                "z": 77.861
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 257.459,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -0.693,
+                "y": 0,
+                "z": -0.154
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.23,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -425.426,
+                "y": 10.189,
+                "z": 73.132
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": true
+        },
+        "NPC87432936-400a-40": {
+            "position": {
+                "x": -440.187,
+                "y": 10.22,
+                "z": 67.438
+            },
+            "rotation": {
+                "x": 0.05,
+                "y": 56.595,
+                "z": 0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_54": {
+        "Ego": {
+            "position": {
+                "x": -421.785,
+                "y": 10.191,
+                "z": 73.918
+            },
+            "rotation": {
+                "x": 359.514,
+                "y": 256.79,
+                "z": 0.705
+            },
+            "velocity": {
+                "x": 3.594,
+                "y": -0.017,
+                "z": 0.769
+            },
+            "angular_velocity": {
+                "x": -0.007,
+                "y": -0.028,
+                "z": -0.026
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -381.887,
+                "y": 10.087,
+                "z": 102.442
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.93,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -1.849,
+                "y": 0,
+                "z": 1.786
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": -0.194,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -364.286,
+                "y": 10.208,
+                "z": 85.035
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -445.431,
+                "y": 10.056,
+                "z": 77.791
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 257.472,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -0.562,
+                "y": 0.0,
+                "z": -0.125
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.274,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -424.766,
+                "y": 10.189,
+                "z": 73.124
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": true
+        },
+        "NPC87432936-400a-40": {
+            "position": {
+                "x": -439.636,
+                "y": 10.22,
+                "z": 67.802
+            },
+            "rotation": {
+                "x": 0.05,
+                "y": 56.595,
+                "z": 0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_55": {
+        "Ego": {
+            "position": {
+                "x": -420.825,
+                "y": 10.203,
+                "z": 74.131
+            },
+            "rotation": {
+                "x": 359.655,
+                "y": 256.217,
+                "z": 0.089
+            },
+            "velocity": {
+                "x": 0.841,
+                "y": 0.009,
+                "z": 0.198
+            },
+            "angular_velocity": {
+                "x": 0.003,
+                "y": -0.008,
+                "z": 0.025
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -382.815,
+                "y": 10.087,
+                "z": 103.335
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.933,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": -1.849,
+                "y": 0,
+                "z": 1.792
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.207,
+                "z": 0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -364.038,
+                "y": 10.208,
+                "z": 84.488
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -445.684,
+                "y": 10.056,
+                "z": 77.735
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 257.487,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -0.458,
+                "y": 0,
+                "z": -0.101
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.323,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -424.166,
+                "y": 10.189,
+                "z": 73.118
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": true
+        },
+        "NPC87432936-400a-40": {
+            "position": {
+                "x": -439.135,
+                "y": 10.219,
+                "z": 68.132
+            },
+            "rotation": {
+                "x": 0.05,
+                "y": 56.595,
+                "z": 0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_56": {
+        "Ego": {
+            "position": {
+                "x": -420.688,
+                "y": 10.204,
+                "z": 74.164
+            },
+            "rotation": {
+                "x": 359.887,
+                "y": 256.156,
+                "z": 0.007
+            },
+            "velocity": {
+                "x": -0.136,
+                "y": 0.0,
+                "z": -0.031
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": 0.004
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -383.745,
+                "y": 10.087,
+                "z": 104.229
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.937,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": -1.859,
+                "y": 0,
+                "z": 1.798
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": -0.221,
+                "z": 0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -363.762,
+                "y": 10.208,
+                "z": 83.878
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -445.861,
+                "y": 10.056,
+                "z": 77.695
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 257.495,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -0.171,
+                "y": -0.0,
+                "z": -0.038
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -423.496,
+                "y": 10.189,
+                "z": 73.11
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": true
+        },
+        "NPC87432936-400a-40": {
+            "position": {
+                "x": -438.575,
+                "y": 10.218,
+                "z": 68.501
+            },
+            "rotation": {
+                "x": 0.05,
+                "y": 56.595,
+                "z": 0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_57": {
+        "Ego": {
+            "position": {
+                "x": -420.408,
+                "y": 10.181,
+                "z": 74.229
+            },
+            "rotation": {
+                "x": 359.202,
+                "y": 254.853,
+                "z": 0.745
+            },
+            "velocity": {
+                "x": 0.927,
+                "y": 0.093,
+                "z": 0.186
+            },
+            "angular_velocity": {
+                "x": -0.031,
+                "y": -0.083,
+                "z": 0.027
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -384.678,
+                "y": 10.087,
+                "z": 105.127
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.941,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": -1.862,
+                "y": 0.0,
+                "z": 1.804
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": -0.239,
+                "z": 0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -363.518,
+                "y": 10.208,
+                "z": 83.34
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -445.896,
+                "y": 10.056,
+                "z": 77.688
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 257.495,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -0.021,
+                "y": 0,
+                "z": -0.005
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": 0,
+                "z": 0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -422.906,
+                "y": 10.19,
+                "z": 73.103
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": true
+        },
+        "NPC87432936-400a-40": {
+            "position": {
+                "x": -438.083,
+                "y": 10.218,
+                "z": 68.826
+            },
+            "rotation": {
+                "x": 0.05,
+                "y": 56.595,
+                "z": 0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_58": {
+        "Ego": {
+            "position": {
+                "x": -418.238,
+                "y": 10.2,
+                "z": 74.843
+            },
+            "rotation": {
+                "x": 359.498,
+                "y": 252.099,
+                "z": 0.157
+            },
+            "velocity": {
+                "x": 2.709,
+                "y": 0.029,
+                "z": 0.788
+            },
+            "angular_velocity": {
+                "x": 0.005,
+                "y": -0.055,
+                "z": 0.013
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -385.614,
+                "y": 10.087,
+                "z": 106.027
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.947,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": -1.871,
+                "y": 0.0,
+                "z": 1.809
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": -0.259,
+                "z": 0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -363.262,
+                "y": 10.207,
+                "z": 82.776
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -445.9,
+                "y": 10.056,
+                "z": 77.687
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 257.495,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": -0.003,
+                "y": 0,
+                "z": -0.001
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -422.286,
+                "y": 10.19,
+                "z": 73.097
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": true
+        },
+        "NPC87432936-400a-40": {
+            "position": {
+                "x": -437.565,
+                "y": 10.217,
+                "z": 69.167
+            },
+            "rotation": {
+                "x": 0.05,
+                "y": 56.595,
+                "z": 0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    },
+    "timestep_59": {
+        "Ego": {
+            "position": {
+                "x": -417.261,
+                "y": 10.204,
+                "z": 75.146
+            },
+            "rotation": {
+                "x": 359.799,
+                "y": 251.349,
+                "z": 0.036
+            },
+            "velocity": {
+                "x": 1.224,
+                "y": 0.0,
+                "z": 0.39
+            },
+            "angular_velocity": {
+                "x": 0.003,
+                "y": -0.016,
+                "z": 0.001
+            }
+        },
+        "NPCSchoolBus(Clone)07c1fb54": {
+            "position": {
+                "x": -386.553,
+                "y": 10.087,
+                "z": 106.93
+            },
+            "rotation": {
+                "x": -0.002,
+                "y": 313.953,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": -1.874,
+                "y": 0.0,
+                "z": 1.815
+            },
+            "angular_velocity": {
+                "x": -0.0,
+                "y": -0.283,
+                "z": 0.001
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC72b22569-0196-49": {
+            "position": {
+                "x": -363.035,
+                "y": 10.207,
+                "z": 82.275
+            },
+            "rotation": {
+                "x": 0.013,
+                "y": 155.627,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "NPCBoxTruck(Clone)ae474cc4-": {
+            "position": {
+                "x": -445.901,
+                "y": 10.056,
+                "z": 77.686
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 257.495,
+                "z": 0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0.0,
+                "y": 0,
+                "z": -0.0
+            },
+            "type": "Vehicle",
+            "Collided_With_Ego": false
+        },
+        "NPC1ecb4d8c-59ce-40": {
+            "position": {
+                "x": -421.736,
+                "y": 10.19,
+                "z": 73.09
+            },
+            "rotation": {
+                "x": 359.977,
+                "y": 90.641,
+                "z": -0.0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": true
+        },
+        "NPC87432936-400a-40": {
+            "position": {
+                "x": -437.106,
+                "y": 10.217,
+                "z": 69.47
+            },
+            "rotation": {
+                "x": 0.05,
+                "y": 56.595,
+                "z": 0
+            },
+            "velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "angular_velocity": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Pedestrian",
+            "Collided_With_Ego": false
+        },
+        "Lane": {
+            "Left_Boundary": "Dotted White",
+            "Right_Boundary": "Dotted White",
+            "Left_Lane_Direction": "Same Direction to Ego",
+            "Right_Lane_Direction": "Same Direction to Ego"
+        },
+        "Junction": {
+            "Has_Horizontal_Left_Entry": true,
+            "Has_Horizontal_Right_Entry": true,
+            "Has_Vertical_Inverse_Entry": false,
+            "Has_Vertical_Forward_Entry": false,
+            "Junction_Position": "near"
+        }
+    }
+}
